@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+}
+.body{
+  background: linear-gradient(-100deg,#5A8ABB,#0aa699);
+  padding: 20px;
+  height: 100%;
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  min-height: 102vh;
+  background-color: white;
+}
+.content{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  width: 380px;
+  height: 250px;
+}
+.form_hidden{
+  display: none;
+  height: 750px;
+}
+.member{
+  font-family:  sans-serif;
+  font-weight:   bolder;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #333333;
+}
+.input{
+  display: flex;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  background-color: #ededed;
+  border-radius:40px;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 30px;
+}
+.text{
+  background: none;
+  font-size: 20px;
+  width: 300px;
+  border-width: 0px 0px 0px 0px;
+  border-color: black;
+  height: 30px;
+}
+.text:required{
+  border:1px solid #ededed;
+}
+.icon{
+  width: 24px;
+  margin-right: 20px;
+}
+.btn{
+  font-size: 32px;
+  display: block;
+  width: 100%;
+  height:50px;
+  border-radius: 40px;
+  border: 0px;
+  color: white;
+  background-color: #0aa699;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn:hover{
+background-color: #5A8ABB;
+}
+.text:focus .input{
+  border-color: #57b846;
+}
+.text:focus::placeholder{
+  opacity: 0;
+}
+.text::placeholder{
+  font-size: 18px;
+  opacity: 0.2;
+}
+.erreur{
+  margin-bottom: 16px;
+}
+.erreur label{
+  font-size: 18px;
+  color: red;
+}
+.btn_creer{
+  margin-top: 24px;
+  text-decoration: none;
+    border-radius: 20px;
+  background-color: #0a00f3 ;
+  justify-content: center;
+  font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    font-size: 32px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: 0px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn_creer:hover{
+  color: #5A8ABB;
+}
+
+.btn_connect{
+  margin-top: 24px;
+  text-decoration: none;
+    border-radius: 20px;
+  background-color: #0aa699 ;
+  justify-content: center;
+  font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    font-size: 32px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: 0px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn_connect:hover{
+  color: #5A8ABB;
+}
+
+ #typeSelect{
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+#ConnectBtn {
+  display: none;
+}
+#ConnectLink{
+display: block;
+
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+
+
